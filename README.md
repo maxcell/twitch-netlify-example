@@ -20,7 +20,7 @@ If you want to just get this all setup and just see it working:
 If you want to do it through the CLI:
 
 ```bash
-twitch api post eventsub/subscription --body '{
+twitch api post eventsub/subscriptions --body '{
 "type": "stream.online",
   "version": "1",                      
   "condition": {                       
