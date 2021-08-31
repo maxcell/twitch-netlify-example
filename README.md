@@ -34,6 +34,8 @@ twitch api post eventsub/subscriptions --body '{
 }'
 ```
 
+**Note**: The `secret` is whatever string you'd want it to be. This is a secret you establish with Twitch on this request and whenever you need to verify the signature actually came from Twitch, you'll use this string.
+
 (If you don't have your broadcaster_id use `twitch api get users -q login=<YOUR TWITCH HANDKE>`)
 
 And it should be all set!
